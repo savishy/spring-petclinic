@@ -35,6 +35,10 @@ If you have an install of Maven, you can also run using Maven as `mvn | mvn.cmd 
 
 You can then access petclinic here: http://localhost:8080/
 
+## Building Petclinic (JAR)
+
+`./mvnw install` on Linux systems. `mvnw.cmd install` on Windows.
+
 ## Changing the default port
 
 The application runs on port 8080 by default. You can change the port via a Spring Boot command-line argument.
