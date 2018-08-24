@@ -32,6 +32,12 @@
   </properties>
 
   <dependencies>
+    <!--Micrometer dependency for prometheus monitoring-->
+    <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-registry-prometheus</artifactId>
+      <version>1.0.6</version>
+    </dependency>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
